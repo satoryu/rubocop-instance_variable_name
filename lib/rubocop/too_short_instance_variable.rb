@@ -1,8 +1,4 @@
-require "rubocop/too_short_instance_variable/version"
+require 'rubocop'
 
-module Rubocop
-  module TooShortInstanceVariable
-    class Error < StandardError; end
-    # Your code goes here...
-  end
-end
+require 'rubocop/too_short_instance_variable/version'
+require 'rubocop/cop/naming/too_short_instance_variable'
