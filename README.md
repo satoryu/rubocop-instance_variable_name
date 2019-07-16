@@ -1,4 +1,4 @@
-# Rubocop::InstanceVariableName
+# Ruboop::InstanceVariableName
 
 A RuboCop extension focused on naming instance variables.
 
