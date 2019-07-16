@@ -1,8 +1,6 @@
 # Rubocop::InstanceVariableName
 
-Welcome to your new gem! In this directory, you'll find the files you need to be able to package up your Ruby library into a gem. Put your Ruby code in the file `lib/rubocop/instance_variable_name`. To experiment with that code, run `bin/console` for an interactive prompt.
-
-TODO: Delete this and the text above, and describe your gem
+A RuboCop extension focused on naming instance variables.
 
 ## Installation
 
@@ -26,7 +24,19 @@ gem install rubocop-instance_variable_name
 
 ## Usage
 
-TODO: Write usage instructions here
+Put the following code into your `.rubocop.yml`.
+
+```yaml
+require: rubocop-instance_variable_name
+```
+
+or
+
+```yaml
+require:
+  - rubocop-other-extensions
+  - rubocop-instance_variable_name
+```
 
 ## Development
 

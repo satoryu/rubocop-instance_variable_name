@@ -1,0 +1,1 @@
+require 'rubocop/instance_variable_name'
