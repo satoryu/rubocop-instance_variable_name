@@ -1,26 +1,26 @@
 lib = File.expand_path("lib", __dir__)
 $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
-require "rubocop/too_short_instance_variable/version"
+require "rubocop/instance_variable_name/version"
 
 Gem::Specification.new do |spec|
-  spec.name          = "rubocop-too_short_instance_variable"
-  spec.version       = Rubocop::TooShortInstanceVariable::VERSION
+  spec.name          = "rubocop-instance_variable_name"
+  spec.version       = Rubocop::InstanceVariableName::VERSION
   spec.authors       = ["Tatsuya Sato"]
   spec.email         = ["satoryu.1981@gmail.com"]
 
-  spec.summary       = %q{A custom cop to check instance variables with too short name}
+  spec.summary       = %q{A custom cop for validating instance variables}
   spec.description   = <<~DESC
     Variable name is an important key for developers to understand what codes do.
-    This cope detcts too short instance variables.
+    This cope checks instance variable names.
   DESC
-  spec.homepage      = "https://github.com/satoryu/rubocop-too_short_instance_variable"
+  spec.homepage      = "https://github.com/satoryu/rubocop-instance_variable_name"
   spec.license       = "MIT"
 
   spec.metadata["allowed_push_host"] = 'https://rubygems.org'
 
   spec.metadata["homepage_uri"] = spec.homepage
-  spec.metadata["source_code_uri"] = "https://github.com/satoryu/rubocop-too_short_instance_variable"
-  spec.metadata["changelog_uri"] = "https://github.com/satoryu/rubocop-too_short_instance_variable"
+  spec.metadata["source_code_uri"] = "https://github.com/satoryu/rubocop-instance_variable_name"
+  spec.metadata["changelog_uri"] = "https://github.com/satoryu/rubocop-instance_variable_name"
 
   # Specify which files should be added to the gem when it is released.
   # The `git ls-files -z` loads the files in the RubyGem that have been added into git.

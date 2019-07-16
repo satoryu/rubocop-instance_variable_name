@@ -1,5 +1,5 @@
 require "bundler/setup"
-require "rubocop/too_short_instance_variable"
+require "rubocop/instance_variable_name"
 require 'rubocop/rspec/support'
 
 RSpec.configure do |config|
