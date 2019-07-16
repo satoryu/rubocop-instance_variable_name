@@ -38,6 +38,16 @@ require:
   - rubocop-instance_variable_name
 ```
 
+## Configuration
+
+In default, acceptable minimum length of instance variable name is 2.
+If you want to stretch it, put `AcceptableMinimumLength` into your `.rubocop.yml`.
+
+```yaml
+Naming/InstanceVariableName:
+  AcceptableMinimumLength: 5
+```
+
 ## Development
 
 After checking out the repo, run `bin/setup` to install dependencies. Then, run `rake spec` to run the tests. You can also run `bin/console` for an interactive prompt that will allow you to experiment.

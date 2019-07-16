@@ -5,7 +5,7 @@ module RuboCop
     module Naming
       class InstanceVariableName < ::RuboCop::Cop::Cop
         MSG = 'Instance variable `%<ivar_name>s` is too short.'.freeze
-        DEFAULT_ACCEPTABLE_LENGTH = 3.freeze
+        DEFAULT_ACCEPTABLE_MINIMUM_LENGTH = 3.freeze
 
         def on_ivasgn(node)
           ivar_name, _ = *node
@@ -15,7 +15,7 @@ module RuboCop
 
         private
           def acceptable_length
-            cop_config['AcceptableLength'] || DEFAULT_ACCEPTABLE_LENGTH
+            cop_config['AcceptableMinimumLength'] || DEFAULT_ACCEPTABLE_MINIMUM_LENGTH
           end
       end
     end

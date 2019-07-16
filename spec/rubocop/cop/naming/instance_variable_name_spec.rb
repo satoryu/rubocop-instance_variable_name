@@ -18,10 +18,10 @@ RSpec.describe RuboCop::Cop::Naming::InstanceVariableName do
       CODE
     end
   end
-  context 'When AcceptableLength is defined' do
+  context 'When AcceptableMinimumLength is defined' do
     let(:config) do
       RuboCop::Config.new('Naming/InstanceVariableName' => {
-        'AcceptableLength' => 5
+        'AcceptableMinimumLength' => 5
       })
     end
 
