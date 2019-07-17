@@ -1,5 +1,7 @@
 # Ruboop::InstanceVariableName
 
+[![Build Status](https://travis-ci.org/satoryu/rubocop-instance_variable_name.svg?branch=master)](https://travis-ci.org/satoryu/rubocop-instance_variable_name)
+
 A RuboCop extension focused on naming instance variables.
 
 ## Installation
