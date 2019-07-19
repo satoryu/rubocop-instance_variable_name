@@ -1,4 +1,4 @@
-# Ruboop::InstanceVariableName
+# RuboCop::InstanceVariableName
 
 [![Build Status](https://travis-ci.org/satoryu/rubocop-instance_variable_name.svg?branch=master)](https://travis-ci.org/satoryu/rubocop-instance_variable_name)
 
